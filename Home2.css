@@ -1,0 +1,63 @@
+header {
+    display: flex; /* Use flexbox for header */
+    align-items: center; /* Center items vertically */
+    background-color: #f3f3f3; /* Header background color */
+    padding: 10px; /* Header padding */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Header shadow */
+}
+
+.container2 {
+    background-color: #49ad39; /* Header background color */
+
+    display: flex;
+    align-items: center; /* Center items vertically */
+    margin-right: auto; /* Push to the left */
+}
+
+.social-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 0; /* Remove default margin */
+    display: flex;
+}
+
+.social-links li {
+    margin-right: 10px;
+}
+
+.social-links li:last-child {
+    margin-right: 0;
+}
+
+.social-links a {
+    display: block;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+
+.social-links a:hover {
+    transform: scale(1.1); /* Increase size on hover */
+}
+
+.social-links img {
+    width: 30px; /* Adjust icon size */
+    height: 30px;
+    border-radius: 50%; /* Make icons circular */
+}
+
+.center-text {
+    background-color: #4e1465; /* Header background color */
+    text-align: center; /* Center text horizontally */
+    font-size: 18px; /* Adjust font size */
+    font-weight: bold; /* Add bold font weight */
+    margin-left: auto; /* Push to the right */
+}
+
+
+.right-text {
+    background-color: #a71111; /* Header background color */
+    text-align: center; /* Center text horizontally */
+    font-size: 18px; /* Adjust font size */
+    font-weight: bold; /* Add bold font weight */
+    margin-left: auto; /* Push to the right */
+}
