@@ -1,14 +1,16 @@
 header {
     display: flex; /* Use flexbox for header */
     align-items: center; /* Center items vertically */
-    justify-content: space-between; /* Distribute items evenly */
+    /*justify-content: space-between; /* Distribute items evenly */
     background-color: #f3f3f3; /* Header background color */
     padding: 10px; /* Header padding */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Header shadow */
 }
 
 .container2 {
-    width: 29%;
+   /* background-color: #4d1d1d; /* Header background color */
+
+    width: 35%;
     display: flex;
     align-items: center; /* Center items vertically */
 }
@@ -45,8 +47,9 @@ header {
 }
 
 .center-text {
-
+   /* background-color: #302369; /* Header background color */
     text-align: center; /* Center text horizontally */
-    font-size: 18px; /* Adjust font size */
+    width: 29%;
+    font-size: 20px; /* Adjust font size */
     font-weight: bold; /* Add bold font weight */
 }
